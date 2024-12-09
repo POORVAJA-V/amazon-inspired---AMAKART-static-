@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+<!-- FONT-AWESOME  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- ICON  -->
+  <link rel="shortcut icon" href="images/title-logo.png" type="image/x-icon">
+  <!-- BOOTSTRAP  -->
+ 
+  <title>AMAKART-Online Shopping site</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <img  src="images/kart-logo.png" alt="main-logo">
+      </div>
+    
+      <div style="display:flex;" class="ac_info ln-height border">
+        <div>
+            <img style="margin-right:7px;" src="images/acc-logo.png"/>
+        </div>
+        <div>
+          <a style="text-decoration:none;" href="sign-in.html"><p class="second-line"> <br>Account<i class="fa-solid fa-caret-down"></i></p></a>
+            
+        </div>
+       
+      </div>
+
+      <div class="search_box">
+        <select style="font-family:Roboto; font-weight:700; padding:7px; border-radius:5px;">
+          <option>All </option>
+          <option>All Categories</option>
+          <option>Fashion</option>
+          <option>Fresh Meat</option>
+          <option>Games</option>
+          <option>Gaming & Acessories</option>
+          <option>Men</option>
+          <option>Women</option>
+          <option>Devices</option>
+          <option>Electronics</option>
+          <option>Furnitures</option>
+          <option>Jewellery</option>
+          <option>Appliances</option>
+          <option>Music</option>
+          <option>Watches</option>
+          <option>Prime</option>
+          <option>Best sellers</option>
+          <option>E-books</option>
+          <option>Audio</option>
+        </select>
+        <input type="text" placeholder="@ 'buds'">
+        <div class="camera_search">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="choose_country border">
+        <div class="flag">
+          <img src="images/india-flag.webp" alt="country flag" height="25px" />
+        </div>
+        <select name="" id="flags">
+          <option value="IN">IN</option>
+          <option value="EN">EN</option>
+          <option value="US">US</option>
+        </select>
+      </div>
+
+         <div class="orders ln-height border">
+          <a style="text-decoration:none;" href="sign-in.html"></a><p class="second-line">Orders</p></a>
+        
+      </div>
+
+      <div class="cart border">
+        <a style="text-decoration:none;" href="sign-in.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        
+      </div>
+    </nav>
+
+    <div class="menuBar">
+      <ul>
+        <a href="" class="border">
+          <i class="fa-solid fa-bars"></i>
+          <span>All</span>
+        </a>
+        <a class="border">Products</a>
+        <a class="border">Best Sellers</a>
+        <a class="border">Mobiles</a>
+        <a class="border">Today's Deals</a>
+        <a class="border">New Releases</a>
+        <a class="border">Customer Service</a>
+        <a class="border">Electronics</a>
+        <a class="border">Gift Ideas</a>
+        <a class="border">Fashion</a>
+        <a class="border">Fit & Wellness</a>
+        <a class="border">
+          <select style="background-color: #646f7d; border:none; color:white;">
+            <option value="">Elite</option>
+            <option value="option2">Free</option>
+            <option value="option3">Premium</option>
+          </select>
+        </a>
+       
+      </ul>
+
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Select a location to see product availabilty</p>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+    </div>
+
+    <div class="quickLink">
+      <h2>Fashion</h2>
+      <ul>
+        <li><a>Women</a></li>
+        <li><a>Men</a></li>
+        <li><a>Kids</a></li>
+        <li><a>Bags & Luggage</a></li>
+        <li><a>Watches</a></li>
+        <li><a>Sportswear</a></li>
+        <li><a>Accessories</a></li>
+        <li><a>Sales & Deals</a></li>
+        <li><p style="font-weight:600;">30 DAY RETURN POLICY</p></li>
+      </ul>
+    </div>
+
+    <div class="heroPage">
+      <div class="linearShade">
+        <ul>
+          <img src="images/corousel-1.png" class="scroll-content"/>  
+          <img src="images/corousel-2.png" class="scroll-content"/>  
+          <img src="images/carousel-3.png" class="scroll-content"/>  
+          <img src="images/carousel-4.png" class="scroll-content"/>  
+          <img src="images/carousel-5.png" class="scroll-content"/>  
+          <img src="images/carousel-6.png" class="scroll-content"/>  
+        </ul>
+      </div>
+    </div>
+
+    <div class="cards">
+      <!-- card 1 -->
+      <div class="card">
+        <div class="cardHeading">
+          Bluetooth Calling Smartwatch starts at ₹1,999
+          <img  src="images/bluetooth-img.jpg" alt="watch" />
+        </div>
+        
+        <a href="#">Shop Now</a>
+      </div>
+      <!-- card 2 -->
+      <div class="card">
+        <div class="cardHeading">Revamp your home in style</div>
+        <div class="cardContainer">
+          <div class="product">
+            <img style="height:33vh;" src="images/home-decor.jpg" alt="" />
+            <p>Home decor</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/furniture.jpg" alt="" />
+            <p>Home furnishings</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/storage.jpg" alt="" />
+            <p>Home storage</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/lights.jpg" alt="" />
+            <p>Lighting solutions</p>
+          </div>  
+        </div>
+        <a href="#">Explore all</a>
+      </div>
+      
+      <!-- card 3 -->
+      <div class="card">
+        <div class="cardHeading">Up to 75% off | Headphones</div>
+        <div class="cardContainer">
+          <div class="product">
+            <img src="images/boat.jpg" alt="" />
+            <p>Up to 75% off | boAt</p>
+          </div>
+          <div class="product">
+            <img src="images/boult.jpg" alt="" />
+            <p>Up to 75% off | boult</p>
+          </div>
+          <div class="product">
+            <img src="images/noise.jpg" alt="" />
+            <p>Up to 75% off | Noise</p>
+          </div>
+          <div class="product">
+            <img src="images/zeb.jpg" alt="" />
+            <p>Up to 75% off | Zebronics</p>
+          </div>
+        </div>
+        <a href="#">See all offers</a>
+      </div>
+      <!-- card 4 -->
+      <div class="card">
+        <div class="cardHeading">Up to 70% off | Styles for men</div>
+        <div class="cardContainer">
+          <div class="product">
+            <img style="height:33vh;" src="images/men-cloth.jpg" alt="" />
+            <p>Clothing</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/men-footware.jpg" alt="" />
+            <p>Footwear</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/men-watch.jpg" alt="" />
+            <p>Watches</p>
+          </div>
+          <div class="product">
+            <img style="height:33vh;" src="images/men-bags.jpg" alt="" />
+            <p>Bags & wallet</p>
+          </div>
+        </div>
+        <a href="#">Mega Fashion Days</a>
+      </div>
+      <!-- card 5 -->
+      <div class="card">
+        <div class="cardHeading">
+          Starting ₹99 | All your home improvement needs
+        </div>
+        <div class="cardContainer">
+          <div class="product">
+            <img src="images/mop.jpg" alt="" />
+            <p>Spin mops, wipes & more</p>
+          </div>
+          <div class="product">
+            <img src="images/bathroom.jpg" alt="" />
+            <p>Bathroom hardware & accessories</p>
+          </div>
+          <div class="product">
+            <img src="images/hammers.jpg" alt="" />
+            <p>Hammers, screwdrivers & more</p>
+          </div>
+          <div class="product">
+            <img src="images/plgins.jpg" alt="" />
+            <p>Extension boards, plugs & more</p>
+          </div>
+        </div>
+        <a href="#">Explore all</a>
+      </div>
+      <!-- card 6 -->
+      <div class="card">
+        <div class="cardHeading">
+          Starting ₹99 | All your system improvement needs
+        </div>
+        <div class="cardContainer">
+          <div class="product">
+            <img class="image" src="images/gaming.webp" alt="" />
+            <p>Gaming Accessories</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/keyboard.jpg" alt="" />
+            <p>Keyboard and Mice</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/cables.jpg" alt="" />
+            <p>Stands, Cables & more</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/backpack.webp" alt="" />
+            <p>Backpacks</p>
+          </div>
+        </div>
+        <a href="#">See all offers</a>
+      </div>
+      <!-- card 7 -->
+      <div class="card">
+        <div class="cardHeading">Up to 70% off | Styles for women</div>
+        <div class="cardContainer">
+          <div class="product">
+            <img  class="image"src="images/woman-cloth.avif" alt="" />
+            <p>Women's Clothing</p>
+          </div>
+          <div class="product">
+            <img  class="image"" src="images/footware.jpg" alt="" />
+            <p>Footwear+Handbags</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/woman-watch.jpg" alt="" />
+            <p>Watches</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/fashion-jwel.jpg" alt="" />
+            <p>Fashion jewellery</p>
+          </div>
+        </div>
+        <a href="#">Mega Fashion Days</a>
+      </div>
+      <!-- card 8 -->
+      <div class="card">
+        <div class="cardHeading">
+          Appliances for your home | Up to 55% off
+        </div>
+        <div class="cardContainer">
+          <div class="product">
+            <img  class="image" src="images/ac.jpg" alt="" />
+            <p>Air conditioners</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/fridge.jpg" alt="" />
+            <p>Refrigerators</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/microwav.jpg" alt="" />
+            <p>Microwaves</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/washing-machine.jpg" alt="" />
+            <p>Washing machines</p>
+          </div>
+        </div>
+        <a href="#" >See more</a>
+      </div>
+      <!-- card 9 -->
+      <div class="card">
+        <div class="cardHeading">Starting ₹99 | Toys for your kids</div>
+        <div class="cardContainer">
+          <div class="product">
+            <img  class="image"src="images/toy-bike.jpg" alt="" />
+            <p>Starting ₹299 | Bikes, trikes & ride-ons</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/toys-outdoor.jpg" alt="" />
+            <p>Starting ₹149 | Sport & outdoor</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/soft-toys.jpg" alt="" />
+            <p>Starting ₹99 | Soft toys</p>
+          </div>
+          <div class="product">
+            <img  class="image" src="images/toys-indoor.jpg" alt="" />
+            <p>Starting ₹199 | Indoor games</p>
+          </div>
+        </div>
+        <a href="#">See more</a>
+      </div>
+    </div>
+     <!-- card-10  -->
+    <div class="hori-x">
+      <h2>Best Sellers of the Season</h2>
+      <br>
+      <div class="cards-x">
+        
+        <img  class="image-x" src="images/cables.jpg"/>
+        <img  class="image-x" src="images/backpack.webp"/>
+        <img  class="image-x" src="images/boat.jpg"/>
+        <img  class="image-x" src="images/fashion-jwel.jpg"/>
+        <img  class="image-x" src="images/gaming.webp"/>
+        <img  class="image-x" src="images/men-footware.jpg"/>
+        <img  class="image-x" src="images/boult.jpg"/>
+        <img  class="image-x" src="images/toys-indoor.jpg"/>
+        <img  class="image-x" src="images/men-cloth.jpg"/>
+        <img  class="image-x" src="images/ac.jpg"/>
+        <img  class="image-x" src="images/storage.jpg"/>
+        <img  class="image-x" src="images/soft-toys.jpg"/>
+        
+      </div>
+   </div>
+
+   <!-- CARD 11  -->
+  
+ 
+ <div class="footer-class">
+
+      <div class="backTop">
+        <i class="fa-solid fa-caret-up"></i>
+        <a href="#">Back to top</a>
+        <a href="#">TOP OF PAGE</a>
+      </div>
+  
+      <div class="socialHandle">
+        <div class="sh-part-1">
+          <ul>
+            <li>Get to Know Us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+          </ul>
+          <ul>
+            <li>Connect with US</li>
+            <li>Facbook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+          <ul>
+            <li>Make Money with Us</li>
+            <li>Sell on Amakart</li>
+            <li>Protect and Build Your Brand</li>
+            <li>Become an Affilate</li>
+            <li>Fulfilment by Amakart</li>
+            <li>Advertise Your Products</li>
+          </ul>
+          <ul>
+            <li>Let Us Help You</li>
+            <li>Your Account</li>
+            <li>Returns centre</li>
+            <li>100% Purchase Protection</li>
+            <li>Help</li>
+          </ul>
+        </div>
+        <div class="sh-part-2">
+          <div class="foot-logo">
+            <img src="main-assets/logo.png" alt="" />
+            <button>
+              <i class="fa-solid fa-globe"></i>
+              English
+              <i class="fa-solid fa-sort"></i>
+            </button>
+          </div>
+          <div class="locations">
+            <span>Australia</span>
+            <span>Brazil</span>
+            <span>Canada</span>
+            <span>China</span>
+            <span>France</span>
+            <span>Germany</span>
+            <span>Itlay</span>
+            <span>Japan</span>
+            <span>Mexico</span>
+            <span>Netherlands</span>
+            <span>Poland</span>
+            <span>Singapore</span>
+            <span>Spain</span>
+            <span>Turkey</span>
+            <span>United Arab Emirates</span>
+            <span>United Kingdom</span>
+            <span>United States </span>
+          </div>
+        </div>
+  
+        <div class="sh-part-m">
+          <ul>
+            <li>Wish List</li>
+            <li>Your Account</li>
+            <li>Returns</li>
+            <li>Customer Service</li>
+            <li>Your Orders</li>
+            <li>Find a Wish List</li>
+            <li>Your Recently Viewed Items</li>
+            <li>Sell</li>
+          </ul>
+        </div>
+        <hr>
+        <p style="color:white;text-align:center; ">Developed by  👨🏼‍💻 Poorvaja Vijayan 👨🏼‍💻</p>
+      </div>
+      
+  
+    </div>
+
+  
+  
+  
+  
+  
+  
+    <!-- <footer>
+      <div class="footer-part-1">
+        <ul>
+          <li>AbeBooks</li>
+          <li>Books, art</li>
+          <li>& collectibles</li>
+        </ul>
+        <ul>
+          <li>Amazon Web Services</li>
+          <li>Scalable Cloud</li>
+          <li>Computing Services</li>
+        </ul>
+        <ul>
+          <li>Audible</li>
+          <li>Download</li>
+          <li>Audio Books</li>
+        </ul>
+        <ul>
+          <li>DPReview</li>
+          <li>Digital</li>
+          <li>Photography</li>
+        </ul>
+        <ul>
+          <li>IMDb</li>
+          <li>Movies, TV</li>
+          <li>& Celebrities</li>
+        </ul>
+        <ul>
+          <li>Amazon Bussiness</li>
+          <li>Everything For</li>
+          <li>Your Bussiness</li>
+        </ul>
+        <ul>
+          <li>Prime Now</li>
+          <li>2-Hours Delivery</li>
+          <li>on Everyday Items</li>
+        </ul>
+        <ul>
+          <li>Amazon Prime Music</li>
+          <li>100 million songs, ad-free</li>
+          <li>Over 15 million podcast episodes</li>
+        </ul>
+      </div>
+
+      <div class="footer-part-sm">
+        <div class="lang">
+          <i class="fa-solid fa-globe"></i>
+          English
+        </div>
+        <h3><a href="">Already a customer? Sign in</a></h3>
+      </div>
+
+      <div class="footer-part-2">
+        <p>
+          <a href="">Conditions of Use & Sale</a>
+          <a href="">Privacy Notice</a> <a href="">Interest-Based Ads</a>
+        </p>
+        <p>&copy; 1996-2023, Amazon.com, Inc. or its affilates</p>
+      </div>
+    </footer> -->
+  </div>
+</body>
+
+</html>
